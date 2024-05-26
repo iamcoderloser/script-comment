@@ -1,0 +1,29 @@
+{
+	"name": "script-comment",
+	"version": "1.0.0",
+	"description": "node js 用于给script添加注释",
+	"main": "index.js",
+	"bin": {
+		"scrc": "./.bin/index.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"example": "echo 'example'"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"commander": "^12.1.0"
+	},
+	"scriptsWithComment": {
+		"example": {
+			"cmd": "echo 'example'",
+			"desc": "用于描述命令的作用"
+		},
+		"test": {
+			"cmd": "echo \"Error: no test specified\" && exit 1",
+			"desc": ""
+		}
+	}
+}
